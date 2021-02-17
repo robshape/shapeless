@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+  <title>Shapeless AB</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      align-items: center;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 16px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 100;
+    }
+
+    h2 {
+      font-size: 1.125rem;
+      font-weight: 100;
+    }
+
+    .contact {
+      list-style-type: none;
+    }
+
+    .contact > li {
+      font-size: 1.75rem;
+      font-weight: 100;
+      margin-top: 8px;
+    }
+
+    .contact > li > a,
+    .contact > li > a:visited {
+      background-color: #fff;
+      color: #000;
+      display: block;
+      padding: 16px;
+      text-decoration: none;
+    }
+
+    .contact:hover > li {
+      opacity: 0;
+    }
+
+    .contact:hover > li:hover {
+      opacity: 1;
+    }
+
+    .content {
+      flex: 1 0 284px;
+      padding-left: 16px;
+    }
+
+    .heading {
+      padding-top: 16px;
+    }
+
+    @media only screen and (max-width: 568px) {
+      body {
+        align-items: stretch;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="content">
+      <div class="heading">
+        <h1>Shapeless AB</h1>
+        <h2>Software Development & Consulting</h2>
+      </div>
+    </div>
+
+    <div class="content">
+      <ul class="contact">
+        <li><a href="mailto:robin@shapeless.xyz">Email</a></li>
+        <li><a href="https://github.com/robshape/">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/robshape/">LinkedIn</a></li>
+        <li><a href="https://medium.com/@robshape/">Medium</a></li>
+        <li><a href="https://twitter.com/robshape/">Twitter</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
