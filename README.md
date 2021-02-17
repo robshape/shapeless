@@ -1,6 +1,6 @@
 # Shapeless
 
-[My home page.](https://shapeless.xyz/)
+My [home page](https://shapeless.xyz/).
 
 ## License
 
